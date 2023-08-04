@@ -1,4 +1,4 @@
-![Youtube Thumbnail Grabber](image link)
+![Youtube Thumbnail Grabber](https://raw.githubusercontent.com/kumarPraveen08/youtube-thumbnail-grabber/main/public/preview.png)
 
 # Getting Started with Create React App
 
