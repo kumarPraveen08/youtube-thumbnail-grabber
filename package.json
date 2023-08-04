@@ -2,6 +2,10 @@
   "name": "ytthumb",
   "version": "0.1.0",
   "private": true,
+  "author": "Praveen Prajapati",
+  "description": "Fast and Easy Youtube video thumbnail grabber / saver.",
+  "license": "MIT",
+  "homepage": "https://github.com/kumarPraveen08/youtube-thumbnail-grabber",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
