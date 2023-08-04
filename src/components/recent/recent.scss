@@ -1,0 +1,15 @@
+@import "../../index.scss";
+.recent {
+  flex: 2;
+  h2 {
+    font-size: 36px;
+    font-weight: 800;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,63 @@
+@import "../../index.scss";
+
+.home {
+  flex: 5;
+  background-color: lightblue;
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+    input {
+      padding: 20px;
+      font-size: 18px;
+      background-color: white;
+      border: 1px solid lightgray;
+    }
+    button {
+      padding: 20px;
+      font-size: 20px;
+      font-weight: 500;
+      color: white;
+      background-color: rgb(70, 70, 219);
+      border: none;
+      cursor: pointer;
+      display: none;
+    }
+    p {
+      font-size: 18px;
+    }
+
+    .thumbnailWrapper {
+      margin: auto;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      h2 {
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+      }
+      .notFound {
+        font-size: 18px;
+      }
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .item {
+          img {
+            width: 400px;
+            height: auto;
+            cursor: pointer;
+            object-fit: cover;
+          }
+          .quality {
+            font-size: 28px;
+            font-weight: 700;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
